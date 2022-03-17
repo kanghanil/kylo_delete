@@ -205,7 +205,7 @@
     <frontend.maven.plugin.version>1.6</frontend.maven.plugin.version>
     <maven.clean.plugin.version>3.1.0</maven.clean.plugin.version>
     <node.version>v10.10.0</node.version>
-    <npm.version>7.11.1</npm.version>
+    <npm.version>6.4.1</npm.version>
   </properties>
   <modules>
     <module>commons</module>
@@ -1468,7 +1468,7 @@
         <repository>
           <id>mapr-releases</id>
           <name>MapR Repository</name>
-          <url>http://repository.mapr.com/maven/</url>
+          <url>https://repository.mapr.com/maven/</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
